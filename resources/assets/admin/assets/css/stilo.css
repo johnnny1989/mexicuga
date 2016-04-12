@@ -1,0 +1,188 @@
+/* ESTILOS HEADER*/
+.topbar .topbar-left {
+    float: left;
+    position: relative;
+    width: 70px;
+    z-index: 1;
+}
+.logo img {
+    padding:5px;
+}
+/* /ESTILOS HEADER*/
+
+/* MENÙ PRINCIPAL */
+.side-menu {
+    bottom: 0;
+    top: 0;
+    width: 240px;
+    z-index: 2;
+    background: #e9e9e9;
+}
+#sidebar-menu > ul > li > a {
+    color: #333333;
+    display: block;
+    padding: 12px 20px;
+    margin: 4px 0px;
+    border-left: 3px solid transparent;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #C015CC;
+  text-decoration: none;
+}
+#sidebar-menu > ul > li > a.active {
+    background: #C015CC !important;
+    border-left: 3px solid #59006F;
+    color: #ffffff !important;
+}
+#sidebar-menu .subdrop {
+    background: #C015CC !important;
+    border-left: 3px solid #59006F;
+    color: #ffffff !important;
+}
+#sidebar-menu ul ul a {
+    color: #555555;
+    display: block;
+    padding: 10px 20px 10px 65px;
+}
+#sidebar-menu ul ul a:hover {
+  color: #C015CC;
+}
+/* /MENÚ PRINCIPAL */
+
+/* MENU COLLAPSED */
+#wrapper.enlarged .left.side-menu #sidebar-menu a.subdrop {
+    color: #ffffff !important;
+}
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a {
+    position: relative;
+    width: 260px;
+    background: #790097;
+    color: #ffffff;
+    border-color: #59006F;
+}
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:hover {
+    background: #790097 !important;
+}
+
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a:hover {
+  color: #C015CC;
+}
+
+/* /MENU COLLAPSED */
+
+/* BOTONES */
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
+    background-color: #ad2bb7 !important;
+    border: 1px solid #ad2bb7 !important;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #A210AD;
+    border-color: #A210AD;
+}
+.table-actions-bar .table-action-btn:hover {
+  color: #C015CC;
+  border-color: #C015CC;
+}
+.form-group {
+    margin-top: 0px;
+}
+.btn-info, .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open > .dropdown-toggle.btn-info {
+    background-color: #ad2bb7 !important;
+    border: 1px solid #ad2bb7 !important;
+}
+/* /BOTONES */
+
+/* ESTILOS TIPO */
+h4 {
+    font-size: 28px !important;
+}
+.tipo_roja
+{
+	color:#fe0000;
+}
+a.tipo_roja
+{
+	color:#fe0000;
+}
+a:hover.tipo_roja
+{
+	color:#d10000;
+}
+.text-custom {
+    color: #C015CC;
+}
+.page-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+.header-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.type_amarilla
+{
+	color: #ffbd4a !important
+}
+/* /ESTILOS TIPO */
+
+/* ESTILOS IMAGENES */
+img.bg_morado
+{
+	background-color:#b83897;
+	padding:5px;
+}
+/* /ESTILOS IMAGENES */
+
+/* ESTRUCTURA */
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top:15px;
+}
+.form-group.range input
+{
+	padding-left:30px;	
+}
+.form-group.range .fa-calendar {
+    position: absolute;
+    top: .8em;
+    left: 1.6em;
+}
+/* /ESTRUCTURA */
+
+/* WIZARD */
+.wizard > .content > .body label {
+    display: inline-block;
+    margin-top: 10px;
+    text-align:right;
+}
+.wizard > .steps .current a {
+    background: #337AB7;
+}
+.wizard > .steps .current a:hover {
+  background: #318cd9;
+}
+.wizard > .actions a {
+    background: #ad2bb7;
+    border-radius: 2px;
+    color: #ffffff;
+}
+.wizard > .actions a:hover {
+  background: #C015CC;
+  border-radius: 2px;
+  color: #ffffff;
+}
+/* /WIZARD */
+
+/* COMENTARIOS */
+.mx-box {
+    max-height: 420px;
+    min-height: 380px;
+}
+/* /COMENTARIOS */

@@ -1,0 +1,579 @@
+/*MENU PRINCIPAL*/
+#header.light-header .header-main .header-main-block1 {
+    background-color: #ffffff;
+}
+#header .navbar-main {
+    margin: 0;
+    border-radius: 0;
+    background-color: rgb(21,172,224);
+    border: 0;
+}
+.navbar-main .nav>.dropdown>a {
+    padding: 14px 10px 14px 10px;
+}
+.navbar-main .nav>li>a {
+    color: #fff;
+    padding: 14px 15px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a:hover,.nav .open>a:hover,.nav .open>a:focus,.nav>li>a:focus,.nav .open>a,.navbar-main .nav>li.open>a {
+    background: #1560AB;
+    color: #fff;
+    border-color: #f1f1f1;
+    -webkit-box-shadow: 0 12px rgba(79,83,103,.175);
+    box-shadow: 0 0 12px rgba(79,83,103,.175);
+ }
+/* BOTONES MENU PRINCIPAL */
+.yamm .yamm-content div > a{color: #B300D9; }
+.yamm .yamm-content ul li a {display: block;}
+.yamm .yamm-content ul li a:hover{color:#B300D9; background-color:#f7f7f7; text-decoration: none;}
+.yamm .yamm-content div > .product-name{color:#4f5367;}
+.yamm .yamm-content div > .product-name:hover{color: #ee4a42;}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 15px;
+  right: 15px;
+}
+.navbar-main .nav>li>a.btn_mexipuntos {
+    color: #ffffff;
+    background: url("../img/btn_mexipuntos_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_mexipuntos_active, .nav>li>a.btn_mexipuntos_active:hover, .nav>li>a.btn_mexipuntos:hover,.nav .open>a.btn_mexipuntos:hover,.nav .open>a.btn_mexipuntos:focus,.nav>li>a.btn_mexipuntos:focus,.nav .open>a.btn_mexipuntos,.navbar-main .nav>li.open>a.btn_mexipuntos  {
+    color: #ffffff;
+    background: url("../img/btn_mexipuntos_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_herramientas {
+    color: #ffffff;
+    background: url("../img/btn_herramientas_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_herramientas_active, .nav>li>a.btn_herramientas_active:hover, .nav>li>a.btn_herramientas:hover,.nav .open>a.btn_herramientas:hover,.nav .open>a.btn_herramientas:focus,.nav>li>a.btn_herramientas:focus,.nav .open>a.btn_herramientas,.navbar-main .nav>li.open>a.btn_herramientas  {
+    color: #ffffff;
+    background: url("../img/btn_herramientas_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_ferreteria {
+    color: #ffffff;
+    background: url("../img/btn_ferreteria_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_ferreteria:hover,.nav .open>a.btn_ferreteria:hover,.nav .open>a.btn_ferreteria:focus,.nav>li>a.btn_ferreteria:focus,.nav .open>a.btn_ferreteria,.navbar-main .nav>li.open>a.btn_ferreteria  {
+    color: #ffffff;
+    background: url("../img/btn_ferreteria_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_plomeria {
+    color: #ffffff;
+    background: url("../img/btn_plomeria_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_plomeria:hover,.nav .open>a.btn_plomeria:hover,.nav .open>a.btn_plomeria:focus,.nav>li>a.btn_plomeria:focus,.nav .open>a.btn_plomeria,.navbar-main .nav>li.open>a.btn_plomeria  {
+    color: #ffffff;
+    background: url("../img/btn_plomeria_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_tubos_conexiones {
+    color: #ffffff;
+    background: url("../img/btn_tubos_conexiones_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_tubos_conexiones:hover,.nav .open>a.btn_tubos_conexiones:hover,.nav .open>a.btn_tubos_conexiones:focus,.nav>li>a.btn_tubos_conexiones:focus,.nav .open>a.btn_tubos_conexiones,.navbar-main .nav>li.open>a.btn_tubos_conexiones  {
+    color: #ffffff;
+    background: url("../img/btn_tubos_conexiones_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_cerraduras_candados {
+    color: #ffffff;
+    background: url("../img/btn_cerraduras_candados_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_cerraduras_candados:hover,.nav .open>a.btn_cerraduras_candados:hover,.nav .open>a.btn_cerraduras_candados:focus,.nav>li>a.btn_cerraduras_candados:focus,.nav .open>a.btn_cerraduras_candados,.navbar-main .nav>li.open>a.btn_cerraduras_candados  {
+    color: #ffffff;
+    background: url("../img/btn_cerraduras_candados_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_material_electrico {
+    color: #ffffff;
+    background: url("../img/btn_material_electrico_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_material_electrico:hover,.nav .open>a.btn_material_electrico:hover,.nav .open>a.btn_material_electrico:focus,.nav>li>a.btn_material_electrico:focus,.nav .open>a.btn_material_electrico,.navbar-main .nav>li.open>a.btn_material_electrico  {
+    color: #ffffff;
+    background: url("../img/btn_material_electrico_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_iluminacion {
+    color: #ffffff;
+    background: url("../img/btn_iluminacion_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_iluminacion:hover,.nav .open>a.btn_iluminacion:hover,.nav .open>a.btn_iluminacion:focus,.nav>li>a.btn_iluminacion:focus,.nav .open>a.btn_iluminacion,.navbar-main .nav>li.open>a.btn_iluminacion  {
+    color: #ffffff;
+    background: url("../img/btn_iluminacion_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_clavos_tornillos {
+    color: #ffffff;
+    background: url("../img/btn_clavos_tornillos_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_clavos_tornillos:hover,.nav .open>a.btn_clavos_tornillos:hover,.nav .open>a.btn_clavos_tornillos:focus,.nav>li>a.btn_clavos_tornillos:focus,.nav .open>a.btn_clavos_tornillos,.navbar-main .nav>li.open>a.btn_clavos_tornillos  {
+    color: #ffffff;
+    background: url("../img/btn_clavos_tornillos_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_pinturas_brochas {
+    color: #ffffff;
+    background: url("../img/btn_pinturas_brochas_bco.png") no-repeat center 10px;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.nav>li>a.btn_pinturas_brochas:hover,.nav .open>a.btn_pinturas_brochas:hover,.nav .open>a.btn_pinturas_brochas:focus,.nav>li>a.btn_pinturas_brochas:focus,.nav .open>a.btn_pinturas_brochas,.navbar-main .nav>li.open>a.btn_pinturas_brochas  {
+    color: #ffffff;
+    background: url("../img/btn_pinturas_brochas_bco.png") no-repeat center 10px;
+    background-color:#B300D9;
+    padding: 40px 10px 10px 10px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+
+@media (max-width: 1199px) {
+	.navbar-main .nav>li>a.btn_mexipuntos {
+    color: #ffffff;
+    background: url("../img/btn_mexipuntos_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_mexipuntos_active, .nav>li>a.btn_mexipuntos_active:hover, .nav>li>a.btn_mexipuntos:hover,.nav .open>a.btn_mexipuntos:hover,.nav .open>a.btn_mexipuntos:focus,.nav>li>a.btn_mexipuntos:focus,.nav .open>a.btn_mexipuntos,.navbar-main .nav>li.open>a.btn_mexipuntos  {
+    color: #ffffff;
+    background: url("../img/btn_mexipuntos_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_herramientas {
+    color: #ffffff;
+    background: url("../img/btn_herramientas_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_herramientas:hover,.nav .open>a.btn_herramientas:hover,.nav .open>a.btn_herramientas:focus,.nav>li>a.btn_herramientas:focus,.nav .open>a.btn_herramientas,.navbar-main .nav>li.open>a.btn_herramientas  {
+    color: #ffffff;
+    background: url("../img/btn_herramientas_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_ferreteria {
+    color: #ffffff;
+    background: url("../img/btn_ferreteria_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_ferreteria:hover,.nav .open>a.btn_ferreteria:hover,.nav .open>a.btn_ferreteria:focus,.nav>li>a.btn_ferreteria:focus,.nav .open>a.btn_ferreteria,.navbar-main .nav>li.open>a.btn_ferreteria  {
+    color: #ffffff;
+    background: url("../img/btn_ferreteria_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_plomeria {
+    color: #ffffff;
+    background: url("../img/btn_plomeria_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_plomeria:hover,.nav .open>a.btn_plomeria:hover,.nav .open>a.btn_plomeria:focus,.nav>li>a.btn_plomeria:focus,.nav .open>a.btn_plomeria,.navbar-main .nav>li.open>a.btn_plomeria  {
+    color: #ffffff;
+    background: url("../img/btn_plomeria_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_tubos_conexiones {
+    color: #ffffff;
+    background: url("../img/btn_tubos_conexiones_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_tubos_conexiones:hover,.nav .open>a.btn_tubos_conexiones:hover,.nav .open>a.btn_tubos_conexiones:focus,.nav>li>a.btn_tubos_conexiones:focus,.nav .open>a.btn_tubos_conexiones,.navbar-main .nav>li.open>a.btn_tubos_conexiones  {
+    color: #ffffff;
+    background: url("../img/btn_tubos_conexiones_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_cerraduras_candados {
+    color: #ffffff;
+    background: url("../img/btn_cerraduras_candados_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_cerraduras_candados:hover,.nav .open>a.btn_cerraduras_candados:hover,.nav .open>a.btn_cerraduras_candados:focus,.nav>li>a.btn_cerraduras_candados:focus,.nav .open>a.btn_cerraduras_candados,.navbar-main .nav>li.open>a.btn_cerraduras_candados  {
+    color: #ffffff;
+    background: url("../img/btn_cerraduras_candados_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_material_electrico {
+    color: #ffffff;
+    background: url("../img/btn_material_electrico_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_material_electrico:hover,.nav .open>a.btn_material_electrico:hover,.nav .open>a.btn_material_electrico:focus,.nav>li>a.btn_material_electrico:focus,.nav .open>a.btn_material_electrico,.navbar-main .nav>li.open>a.btn_material_electrico  {
+    color: #ffffff;
+    background: url("../img/btn_material_electrico_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_iluminacion {
+    color: #ffffff;
+    background: url("../img/btn_iluminacion_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_iluminacion:hover,.nav .open>a.btn_iluminacion:hover,.nav .open>a.btn_iluminacion:focus,.nav>li>a.btn_iluminacion:focus,.nav .open>a.btn_iluminacion,.navbar-main .nav>li.open>a.btn_iluminacion  {
+    color: #ffffff;
+    background: url("../img/btn_iluminacion_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.navbar-main .nav>li>a.btn_clavos_tornillos {
+    color: #ffffff;
+    background: url("../img/btn_clavos_tornillos_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_clavos_tornillos:hover,.nav .open>a.btn_clavos_tornillos:hover,.nav .open>a.btn_clavos_tornillos:focus,.nav>li>a.btn_clavos_tornillos:focus,.nav .open>a.btn_clavos_tornillos,.navbar-main .nav>li.open>a.btn_clavos_tornillos  {
+    color: #ffffff;
+    background: url("../img/btn_clavos_tornillos_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+.navbar-main .nav>li>a.btn_pinturas_brochas {
+    color: #ffffff;
+    background: url("../img/btn_pinturas_brochas_bco.png") no-repeat 5px center;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+	.nav>li>a.btn_pinturas_brochas:hover,.nav .open>a.btn_pinturas_brochas:hover,.nav .open>a.btn_pinturas_brochas:focus,.nav>li>a.btn_pinturas_brochas:focus,.nav .open>a.btn_pinturas_brochas,.navbar-main .nav>li.open>a.btn_pinturas_brochas  {
+    color: #ffffff;
+    background: url("../img/btn_pinturas_brochas_bco.png") no-repeat 5px center;
+    background-color:#B300D9;
+    padding: 10px 10px 10px 60px;
+    border:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:normal;
+    text-transform: none;
+  	font-size:12px;
+}
+}
+/* / BOTONES MENU PRINCIPAL */
+
+/* /MENU PRINCIPAL*/
+
+/* MENU COLLAPSED */
+
+.navbar-main .navbar-toggle {
+    background-color: #B300D9;
+    border-radius: 0;
+}
+@media(max-width:1199px)  {
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+    }
+
+    .navbar-collapse.in {
+      overflow-y: auto !important;
+    }
+
+    .collapse.in {
+      display: block !important;
+    }
+
+}
+
+/*3660*/
+/*3787*/
+@media (min-width: 1200px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 1199px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+/*3787*/
+/*3822*/
+@media (min-width: 1200px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+	@media (min-width: 1200px) {
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-right {
+    float: right !important;
+  }
+}
+/*/3822*/
+
+@media (min-width: 1200px) {
+  .navbar-header {
+    float: left;
+  }
+}
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+/*/3660*/
+
+
+/* /MENU COLLAPSED */
+

@@ -1,0 +1,2 @@
+AddHandler fcgid-script .test
+FCGIWrapper "/dh/cgi-system/php70.cgi" .test
